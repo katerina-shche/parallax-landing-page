@@ -287,7 +287,8 @@
       </main>
       <footer class="border-t border-accent mt-16 sm:mt-24 lg:mt-40 py-6 sm:py-8 md:py-12">
         <div class="container flex flex-wrap md:justify-between items-center md:items-start">
-          <div class="grid gap-2 grow basis-full md:basis-1/4">
+          <div class="grid gap-2 grow basis-full justify-items-center
+          md:justify-items-start md:basis-1/4">
             <svg aria-label="Traverse Logo" class="w-32 sm:w-48 lg:w-56" width="280" viewBox="0 0 357 86" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M18.555 21.228c-3.033.534-4.35 4.151-2.37 6.51l21.78 25.957c1.98 2.359 5.77 1.69 6.823-1.203l11.59-31.84c1.053-2.894-1.421-5.843-4.454-5.308l-33.37 5.884Z" fill="#fff" />
               <path d="M84.795 63.81c3.032-.534 4.349-4.151 2.37-6.51l-21.78-25.957c-1.98-2.359-5.77-1.69-6.824 1.203L46.972 64.387c-1.053 2.894 1.421 5.842 4.453 5.307l33.37-5.884Z" fill="#66CCC1" />
@@ -295,9 +296,44 @@
             </svg>
             <p class="text-muted text-sm text-center md:text-left">
               We curate unique experiences
-              <br>for the adventurouse traveler.
-            </p>
+              <br>for the adventurouse traveler.</p>
           </div>
+          <nav aria-label="Secondary navigation"
+          class="text-sm flex flex-col items-center
+          sm:items-start sm:flex-row text-center
+          sm:text-left space-x-6 space-y-6 justify-between
+          md:justify-around grow basis-full md:basis-1/2
+          mt-2">
+            <div class="grid gap-3">
+              <p class="font-bold underline decoration-accent
+              decoration-4 underline-offset-2
+              tracking-wide">About</p>
+              <ul arial-label="About Traverse" class='list-inside'>
+                <li>
+                  <a href="#" class="hover:text-accent
+                  transition-colors focus:outline-none
+                  focus-visible:ring-4 ring-offset-2
+                  ring-offset-bgk px-0 ring-accent
+                  rounded-full">About Us</a>
+                </li>
+                <li class="list-none pl-0">
+                  <a href="#" class="hover:text-accent
+                  transition-colors focus:outline-none
+                  focus-visible:ring-4 ring-offset-2
+                  ring-offset-bgk px-0 ring-accent
+                  rounded-full">Press</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:text-accent
+                  transition-colors focus:outline-none
+                  focus-visible:ring-4 ring-offset-2
+                  ring-offset-bgk px-0 ring-accent
+                  rounded-full">News</a>
+                </li>
+              </ul>
+            </div>
+
+          </nav>
         </div>  
       </footer> 
 
